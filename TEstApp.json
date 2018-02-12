@@ -1,0 +1,71 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "abSFHvAX0UG487J3o", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "aahw8", 
+            "id": "5a822178288647b219b30517", 
+            "row": 1
+        }
+    ], 
+    "fields": [
+        {
+            "key": "text", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "aahw8", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text"
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "TA-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "5a822155cb4ca60c10cdcecf"
+        }
+    ], 
+    "acronym": "TA", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2018-02-12T23:20:54.045Z", 
+    "trackingFieldId": "5a822155cb4ca60c10cdcecf", 
+    "name": "TEst App", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "abSFHvAX0UG487J3o", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-12T23:21:30.9Z", 
+    "maxTrackingId": 2.0, 
+    "workspaces": [
+        "5a822156cb4ca60c10cdcee1"
+    ], 
+    "id": "aFuAkS82snC2KDt1Z", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
