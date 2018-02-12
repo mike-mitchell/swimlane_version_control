@@ -14,6 +14,18 @@
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
+            "fieldId": "amv5h", 
+            "id": "5a822777ca2944917f5c3661", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
             "fieldId": "aahw8", 
             "id": "5a822178288647b219b30517", 
             "row": 1
@@ -38,6 +50,23 @@
             "name": "Text"
         }, 
         {
+            "key": "text-2", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "amv5h", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text (2)"
+        }, 
+        {
             "name": "Tracking Id", 
             "$type": "Core.Models.Fields.TrackingField, Core", 
             "readOnly": true, 
@@ -59,7 +88,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-02-12T23:21:30.9Z", 
+    "modifiedDate": "2018-02-12T23:47:04.302Z", 
     "maxTrackingId": 2.0, 
     "workspaces": [
         "5a822156cb4ca60c10cdcee1"
